@@ -8,10 +8,7 @@ const primeCheck = (num) => {
         if (num % i === 0) {
           return  isPrime = "Not Prime"
         }
-    
     }
- 
     return isPrime = "Prime"
 }
-
 console.log(primeCheck(9));
