@@ -11,4 +11,5 @@ const primeCheck = (num) => {
     }
     return isPrime = "Prime"
 }
-console.log(primeCheck(9));
+console.log(primeCheck(9)); // Not Prime
+console.log(primeCheck(11)); // Prime
